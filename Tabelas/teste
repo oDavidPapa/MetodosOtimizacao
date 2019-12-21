@@ -1,0 +1,329 @@
+void solucionar(Solucao &solucao)
+{
+    int periodo, cultura, ciclo, opcao;
+    int adbVerde;
+
+    memset(&solucao, 0, sizeof(solucao));
+
+    for (int i = 0; i < quantidadeLotes; i++)
+    {
+        for (int j = 0; j < PERIODO; j++)
+        {
+            if (solucao.matSolucao[i][j] == 0)
+            {
+                solucao.matSolucao[i][j] = 28;
+            }
+        }
+    }
+
+    for (int i = 0; i < quantidadeLotes; i++)
+    {
+        // Seleciona entre as 3 adubações verde possíveis.
+
+        adbVerde = MAX_CULTURA - ((rand() % 3) + 1);
+
+        switch (adbVerde)
+        {
+
+        case 25:
+            // Neste caso não foi necessário realizar um tratamento para 12 ou 24 meses
+            periodo = PERIODO - ((rand() % 4) + 7);
+
+            solucao.matSolucao[i][periodo] = 25;
+            solucao.matSolucao[i][periodo + 1] = 25;
+            solucao.matSolucao[i][periodo + 2] = 25;
+            solucao.matSolucao[i][periodo + 3] = 25;
+            solucao.matSolucao[i][periodo + 4] = 25;
+            break;
+        case 26:
+            // Neste caso em particular precisei fazer a divisão entre 12 e 24 MESES.
+            if (PERIODO == 12)
+            {
+                periodo = PERIODO - ((rand() % 4) + 1);
+
+                switch (periodo)
+                {
+                case 8:
+                    solucao.matSolucao[i][periodo] = 26;
+                    solucao.matSolucao[i][periodo + 1] = 26;
+                    solucao.matSolucao[i][periodo + 2] = 26;
+                    break;
+
+                case 9:
+                    solucao.matSolucao[i][periodo] = 26;
+                    solucao.matSolucao[i][periodo + 1] = 26;
+                    solucao.matSolucao[i][periodo + 2] = 26;
+                    break;
+
+                case 10:
+                    solucao.matSolucao[i][periodo] = 26;
+                    solucao.matSolucao[i][periodo + 1] = 26;
+                    solucao.matSolucao[i][periodo - periodo] = 26;
+                    break;
+
+                case 11:
+                    solucao.matSolucao[i][periodo] = 26;
+                    solucao.matSolucao[i][periodo - periodo] = 26;
+                    solucao.matSolucao[i][(periodo + 1) - periodo] = 26;
+                    break;
+
+                default:
+                    break;
+                }
+            }
+
+            if (PERIODO == 24)
+            {
+                opcao = rand() % 2;
+                //int opcao = 0;
+                if (opcao == 1)
+                {
+                    periodo = 12 - ((rand() % 4) + 1);
+
+                    solucao.matSolucao[i][periodo] = 26;
+                    solucao.matSolucao[i][periodo + 1] = 26;
+                    solucao.matSolucao[i][periodo + 2] = 26;
+                    break;
+                }
+                else
+                {
+                    periodo = PERIODO - ((rand() % 4) + 1);
+                    switch (periodo)
+                    {
+                    case 20:
+                        solucao.matSolucao[i][periodo] = 26;
+                        solucao.matSolucao[i][periodo + 1] = 26;
+                        solucao.matSolucao[i][periodo + 2] = 26;
+                        break;
+
+                    case 21:
+                        solucao.matSolucao[i][periodo] = 26;
+                        solucao.matSolucao[i][periodo + 1] = 26;
+                        solucao.matSolucao[i][periodo + 2] = 26;
+                        break;
+
+                    case 22:
+                        solucao.matSolucao[i][periodo] = 26;
+                        solucao.matSolucao[i][periodo + 1] = 26;
+                        solucao.matSolucao[i][periodo - periodo] = 26;
+                        break;
+
+                    case 23:
+                        solucao.matSolucao[i][periodo] = 26;
+                        solucao.matSolucao[i][periodo - periodo] = 26;
+                        solucao.matSolucao[i][(periodo + 1) - periodo] = 26;
+                        break;
+
+                    default:
+                        break;
+                    }
+                }
+
+            case 27:
+                // Aqui novamente o método de colocar a adubação verde é diferente se considerarmos 24 ou 12 meses
+                if (PERIODO == 12)
+                {
+                    periodo = PERIODO - ((rand() % 5) + 1);
+
+                    switch (periodo)
+                    {
+                    case 8:
+                        solucao.matSolucao[i][periodo] = 27;
+                        solucao.matSolucao[i][periodo + 1] = 27;
+                        solucao.matSolucao[i][periodo + 2] = 27;
+                        solucao.matSolucao[i][periodo + 3] = 27;
+                        break;
+
+                    case 9:
+                        solucao.matSolucao[i][periodo] = 27;
+                        solucao.matSolucao[i][periodo + 1] = 27;
+                        solucao.matSolucao[i][periodo + 2] = 27;
+                        solucao.matSolucao[i][0] = 27;
+                        break;
+
+                    case 10:
+                        solucao.matSolucao[i][periodo] = 27;
+                        solucao.matSolucao[i][periodo + 1] = 27;
+                        solucao.matSolucao[i][0] = 27;
+                        solucao.matSolucao[i][1] = 27;
+                        break;
+
+                    case 11:
+                        solucao.matSolucao[i][periodo] = 27;
+                        solucao.matSolucao[i][0] = 27;
+                        solucao.matSolucao[i][1] = 27;
+                        solucao.matSolucao[i][2] = 27;
+                        break;
+
+                    case 7:
+                        solucao.matSolucao[i][0] = 27;
+                        solucao.matSolucao[i][1] = 27;
+                        solucao.matSolucao[i][2] = 27;
+                        solucao.matSolucao[i][3] = 27;
+                        break;
+
+                    default:
+                        break;
+                    }
+                }
+                if (PERIODO == 24)
+                {
+                    int opcao;
+                    opcao = rand() % 2;
+
+                    if (opcao == 0)
+                    {
+                        periodo = 12 - ((rand() % 5) + 1);
+
+                        solucao.matSolucao[i][periodo] = 27;
+                        solucao.matSolucao[i][periodo + 1] = 27;
+                        solucao.matSolucao[i][periodo + 2] = 27;
+                        solucao.matSolucao[i][periodo + 3] = 27;
+                    }
+                    else
+                    {
+
+                        if (PERIODO == 24)
+                        {
+                            periodo = PERIODO - ((rand() % 5));
+
+                            switch (periodo)
+                            {
+                            case 20:
+                                solucao.matSolucao[i][periodo] = 27;
+                                solucao.matSolucao[i][periodo + 1] = 27;
+                                solucao.matSolucao[i][periodo + 2] = 27;
+                                solucao.matSolucao[i][periodo + 3] = 27;
+                                break;
+
+                            case 21:
+                                solucao.matSolucao[i][periodo] = 27;
+                                solucao.matSolucao[i][periodo + 1] = 27;
+                                solucao.matSolucao[i][periodo + 2] = 27;
+                                solucao.matSolucao[i][periodo - periodo] = 27;
+                                break;
+
+                            case 22:
+                                solucao.matSolucao[i][periodo] = 27;
+                                solucao.matSolucao[i][periodo + 1] = 27;
+                                solucao.matSolucao[i][periodo - periodo] = 27;
+                                solucao.matSolucao[i][(periodo - periodo) + 1] = 27;
+                                break;
+
+                            case 23:
+                                solucao.matSolucao[i][periodo] = 27;
+                                solucao.matSolucao[i][0] = 27;
+                                solucao.matSolucao[i][1] = 27;
+                                solucao.matSolucao[i][2] = 27;
+                                break;
+
+                            case 24:
+                                periodo = 0;
+                                solucao.matSolucao[i][periodo] = 27;
+                                solucao.matSolucao[i][periodo + 1] = 27;
+                                solucao.matSolucao[i][periodo + 2] = 27;
+                                solucao.matSolucao[i][periodo + 3] = 27;
+                                break;
+
+                            default:
+                                break;
+                            }
+                        }
+                    }
+                }
+
+            default:
+                break;
+            }
+        }
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+
+        //Avaliar se é melhor rodar duas vezes ou uma só
+
+        int mes = 0;
+        int index = 0, inicio, fim;
+
+        // Colocando as culturas, respeitando o seu ciclo e seu período de Plantio;
+
+        for (int i = 0; i < quantidadeLotes; i++)
+        {
+            mes = 0;
+            while (mes < PERIODO)
+            {
+                if (solucao.matSolucao[i][mes] == 28)
+                {
+                    int opcao;
+                    // Random para selecionar as culturas.
+                    // Sendo que nas Opções 0 e 1, ele seleciona aleatorimaente dentre as melhores 9 culturas;
+                    // levando em consideração a lucratividade / ciclo;
+                    // Já na opção 2, ele seleciona aleatoriamente dentre as 28 culturas disponíveis.
+
+                    opcao = rand() % 3; // voltar com o 3 aqui!
+
+                    if (opcao == 1)
+                        index = rand() % MAX_CULTURA;
+                    else
+                        index = rand() % 9; // 5 bom resultado
+                    // Por enquanto estou testando apenas com as 9 melhores culturas para ver se dá alguma viável
+
+                    cultura = vetCulturas[vetIndiceCulturasOrdenadas[index]].cultura;
+                    ciclo = vetCicloCultura[vetIndiceCulturasOrdenadas[index]];
+                    inicio = vetCulturas[vetIndiceCulturasOrdenadas[index]].inicioPlantio - 1;
+                    fim = vetCulturas[vetIndiceCulturasOrdenadas[index]].fimPlantio - 1;
+
+                    // Uma vez selecionada a cultura, ele verifica se a mesma está apta a ser plantada no MES vigente, respeitando seu inicio e fim de cultivo.
+                    if (mes >= inicio && mes <= fim)
+                    {
+                        // Enquanto não terminar o ciclo, ele coloca a cultura selecionada
+                        // Porém, somente nos espaços onde existe primeiramente "Pousio";
+                        // Sendo assim, pode ocorrer uma quebra de ciclo, caso haja alguma adubação verde no caminho
+
+                        int nCabe = 0;
+                        int cicloAux = ciclo;
+                        int mesAux = mes;
+
+                        // Verificando se existe espaço para plantar a Cultura respeitando o Ciclo;
+                        // Utilizando uma variável "nCabe", toda vez que um ciclo é quebrado, é incrementado um valor a esta variável!
+
+                        while (ciclo != 0)
+                        {
+                            if (solucao.matSolucao[i][mes] == 28)
+                            {
+                                ciclo--;
+                                mes++;
+                            }
+                            else
+                            {
+                                ciclo--;
+                                mes++;
+                                nCabe++;
+                            }
+                        }
+                        // Se nCabe não sofreu nenhum incremento, significa que aquela cultura certamente caberá naquele espaço, respeitando o seu ciclo de maneira correta!
+
+                        if (nCabe == 0)
+                        {
+                            while (cicloAux != 0)
+                            {
+                                solucao.matSolucao[i][mesAux] = cultura;
+                                cicloAux--;
+                                mesAux++;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        mes++;
+                    }
+                }
+                else
+                {
+                    mes++;
+                }
+            }
+        }
+    }
+}

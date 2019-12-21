@@ -1,0 +1,204 @@
+128755.00
+28  28  18  18  18  18  18  10  10  10  3  3  3  3  25  25  25  25  25  28  28  28  28  28  
+28  28  7  7  7  7  7  7  28  28  28  28  28  28  28  28  28  25  25  25  25  25  28  28  
+28  18  18  18  18  18  2  2  28  28  28  28  28  28  28  28  25  25  25  25  25  28  28  28  
+28  28  8  8  28  2  2  28  26  26  26  28  28  28  28  28  28  28  28  28  28  28  28  28  
+28  3  3  3  3  28  28  28  28  28  27  27  27  27  28  28  28  28  28  28  28  28  28  28  
+27  27  27  27  28  28  18  18  18  18  18  28  28  28  28  28  28  28  28  28  28  26  26  26  
+28  28  8  8  28  5  5  5  5  5  27  27  27  27  28  28  28  28  28  28  28  28  28  28  
+27  28  12  12  12  12  12  12  2  2  28  3  3  3  3  28  28  28  28  28  28  27  27  27  
+27  27  27  18  18  18  18  18  18  18  18  18  18  28  28  28  28  28  28  28  28  28  28  27  
+28  28  5  5  5  5  5  28  24  24  24  28  28  28  28  28  28  28  28  28  27  27  27  27  
+8  8  28  28  28  28  7  7  7  28  27  27  27  27  28  28  28  28  28  28  28  28  28  28  
+2  2  22  22  22  28  28  27  27  27  27  18  18  18  18  18  28  28  28  28  28  28  28  28  
+3  3  3  3  2  2  7  7  7  27  27  27  27  28  28  28  28  28  28  28  28  28  28  28  
+28  28  2  2  7  7  7  28  26  26  26  28  28  28  28  28  28  28  28  28  28  28  28  28  
+28  3  3  3  3  3  3  3  3  2  2  18  18  18  18  18  28  25  25  25  25  25  28  28  
+2  2  5  5  5  5  5  28  26  26  26  2  2  28  28  28  28  28  28  28  28  28  28  28  
+28  28  18  18  18  18  18  28  28  18  18  18  18  18  28  25  25  25  25  25  28  28  28  28  
+18  18  18  18  18  18  18  18  18  18  18  18  18  18  18  25  25  25  25  25  28  28  28  28  
+18  18  18  18  18  18  18  18  18  18  27  27  27  27  28  28  28  28  28  28  28  28  28  28  
+26  28  18  18  18  18  18  18  18  18  18  18  28  28  28  28  28  28  28  28  27  27  27  27  
+
+POUSIO: 
+
+Lote 1 com Pousio.
+Lote 2 com Pousio.
+Lote 3 com Pousio.
+Lote 4 com Pousio.
+Lote 5 com Pousio.
+Lote 6 com Pousio.
+Lote 7 com Pousio.
+Lote 8 com Pousio.
+Lote 9 com Pousio.
+Lote 10 com Pousio.
+Lote 11 com Pousio.
+Lote 12 com Pousio.
+Lote 13 com Pousio.
+Lote 14 com Pousio.
+Lote 15 com Pousio.
+Lote 16 com Pousio.
+Lote 17 com Pousio.
+Lote 18 com Pousio.
+Lote 19 com Pousio.
+Lote 20 com Pousio.
+
+CULTURAS ADJACENTES COM OUTROS LOTES: 
+
+Lote 1 com 6 conflitos.
+Lote 2 com 10 conflitos.
+Lote 3 com 10 conflitos.
+Lote 4 com 2 conflitos.
+Lote 5 com 4 conflitos.
+Lote 6 com 11 conflitos.
+Lote 7 com 15 conflitos.
+Lote 8 com 10 conflitos.
+Lote 9 com 9 conflitos.
+Lote 10 com 12 conflitos.
+Lote 11 com 2 conflitos.
+Lote 12 com 19 conflitos.
+Lote 13 com 3 conflitos.
+Lote 14 com 13 conflitos.
+Lote 15 com 8 conflitos.
+Lote 16 com 3 conflitos.
+Lote 17 com 8 conflitos.
+Lote 18 com 7 conflitos.
+Lote 19 com 3 conflitos.
+Lote 20 com 5 conflitos.
+
+CULTURAS FORA DE CICLO: 
+
+Lote 1 com 0 cultura(s) fora de ciclo.
+Lote 2 com 0 cultura(s) fora de ciclo.
+Lote 3 com 0 cultura(s) fora de ciclo.
+Lote 4 com 0 cultura(s) fora de ciclo.
+Lote 5 com 0 cultura(s) fora de ciclo.
+Lote 6 com 0 cultura(s) fora de ciclo.
+Lote 7 com 0 cultura(s) fora de ciclo.
+Lote 8 com 1 cultura(s) fora de ciclo.
+Lote 9 com 1 cultura(s) fora de ciclo.
+Lote 10 com 1 cultura(s) fora de ciclo.
+Lote 11 com 0 cultura(s) fora de ciclo.
+Lote 12 com 0 cultura(s) fora de ciclo.
+Lote 13 com 0 cultura(s) fora de ciclo.
+Lote 14 com 0 cultura(s) fora de ciclo.
+Lote 15 com 0 cultura(s) fora de ciclo.
+Lote 16 com 0 cultura(s) fora de ciclo.
+Lote 17 com 0 cultura(s) fora de ciclo.
+Lote 18 com 0 cultura(s) fora de ciclo.
+Lote 19 com 0 cultura(s) fora de ciclo.
+Lote 20 com 0 cultura(s) fora de ciclo.
+
+ADUBACAO VERDE: 
+
+Lote 1 com adubacao Verde.
+Lote 2 com adubacao Verde.
+Lote 3 com adubacao Verde.
+Lote 4 com adubacao Verde.
+Lote 5 com adubacao Verde.
+Lote 6 com adubacao Verde.
+Lote 7 com adubacao Verde.
+Lote 8 com adubacao Verde.
+Lote 9 com adubacao Verde.
+Lote 10 com adubacao Verde.
+Lote 11 com adubacao Verde.
+Lote 12 com adubacao Verde.
+Lote 13 com adubacao Verde.
+Lote 14 com adubacao Verde.
+Lote 15 com adubacao Verde.
+Lote 16 com adubacao Verde.
+Lote 17 com adubacao Verde.
+Lote 18 com adubacao Verde.
+Lote 19 com adubacao Verde.
+Lote 20 com adubacao Verde.
+
+CULTURA FORA DE EPOCA: 
+
+Lote 1 com 1 Culturas Fora de Epoca.
+Lote 2 com 1 Culturas Fora de Epoca.
+Lote 3 com 1 Culturas Fora de Epoca.
+Lote 4 sem Culturas Fora de Epoca.
+Lote 5 sem Culturas Fora de Epoca.
+Lote 6 com 1 Culturas Fora de Epoca.
+Lote 7 com 1 Culturas Fora de Epoca.
+Lote 8 com 1 Culturas Fora de Epoca.
+Lote 9 com 1 Culturas Fora de Epoca.
+Lote 10 com 1 Culturas Fora de Epoca.
+Lote 11 com 1 Culturas Fora de Epoca.
+Lote 12 com 2 Culturas Fora de Epoca.
+Lote 13 sem Culturas Fora de Epoca.
+Lote 14 com 1 Culturas Fora de Epoca.
+Lote 15 com 1 Culturas Fora de Epoca.
+Lote 16 com 1 Culturas Fora de Epoca.
+Lote 17 com 1 Culturas Fora de Epoca.
+Lote 18 sem Culturas Fora de Epoca.
+Lote 19 sem Culturas Fora de Epoca.
+Lote 20 com 1 Culturas Fora de Epoca.
+
+CULTURA COM FAMILIA ADJACENTE NO MESMO LOTE: 
+
+Lote 1 com Conflitos com Vizinhos.
+Lote 2 com Conflitos com Vizinhos.
+Lote 3 com Conflitos com Vizinhos.
+Lote 4 com Conflitos com Vizinhos.
+Lote 5 com Conflitos com Vizinhos.
+Lote 6 com Conflitos com Vizinhos.
+Lote 7 com Conflitos com Vizinhos.
+Lote 8 com Conflitos com Vizinhos.
+Lote 9 com Conflitos com Vizinhos.
+Lote 10 com Conflitos com Vizinhos.
+Lote 11 com Conflitos com Vizinhos.
+Lote 12 com Conflitos com Vizinhos.
+Lote 13 com Conflitos com Vizinhos.
+Lote 14 com Conflitos com Vizinhos.
+Lote 15 com Conflitos com Vizinhos.
+Lote 16 com Conflitos com Vizinhos.
+Lote 17 com Conflitos com Vizinhos.
+Lote 18 com Conflitos com Vizinhos.
+Lote 19 com Conflitos com Vizinhos.
+Lote 20 com Conflitos com Vizinhos.
+
+LUCRATIVIDADE POR LOTE: 
+
+Lote 1: R$ 1965.00 de Lucro.
+Lote 2: R$ 3060.00 de Lucro.
+Lote 3: R$ 3442.50 de Lucro.
+Lote 4: R$ 622.50 de Lucro.
+Lote 5: R$ 250.00 de Lucro.
+Lote 6: R$ 3602.50 de Lucro.
+Lote 7: R$ 8100.00 de Lucro.
+Lote 8: R$ 4950.00 de Lucro.
+Lote 9: R$ 21840.00 de Lucro.
+Lote 10: R$ 6080.00 de Lucro.
+Lote 11: R$ 277.50 de Lucro.
+Lote 12: R$ 675.00 de Lucro.
+Lote 13: R$ 1310.00 de Lucro.
+Lote 14: R$ 705.00 de Lucro.
+Lote 15: R$ 4900.00 de Lucro.
+Lote 16: R$ 427.50 de Lucro.
+Lote 17: R$ 4950.00 de Lucro.
+Lote 18: R$ 3607.50 de Lucro.
+Lote 19: R$ 5550.00 de Lucro.
+Lote 20: R$ 5430.00 de Lucro.
+
+
+########################### INFORMACOES GRASP ############################# 
+
+LRC: ................................................................. 40%
+TEMPO LIMITE: ........................................................ 300s (Min: 5)
+
+  ---------------------------- PENALIZACOES ----------------------------
+
+Peso Cultura Fora de Epoca / Fora de Ciclo (CFE): .................... 100
+Peso Culturas Plantadas Adjacentes no Mesmo Lote (CC): ............... 1000
+Peso Culturas Plantadas Adjacentes no Lote Vizinho (PA): ............. 50
+Peso Adubacao Verde (AV): ............................................ 1000
+Peso Pousio (PO): .................................................... 1000
+
+ ----------------------------- RESULTADOS --------------------------- 
+
+Funcao Objetivo da Solucao Inicial: .................................. -2147483647.00
+Funcao Objetivo (FO) da Melhor Solucao: .............................. 128755.00
+Tempo Total: ......................................................... 300.001
+Tempo da Melhor Solucao Encontrada: .................................. 237.221
+
