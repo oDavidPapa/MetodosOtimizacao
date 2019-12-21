@@ -1144,6 +1144,7 @@ void heuGrasp(Solucao &solucao, int LRC)
             printf(" [%d] ", melhorSolucao.matSolucao[i][j]);
         }
         printf("\n");
+        printf("QUalquer coisa");
     }
 
     // ################################## ESCREVENDO NO ARQUIVO ####################################
